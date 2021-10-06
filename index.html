@@ -6,31 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=Б, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <span>
+            <span class="logo">
                 Sligan
             </span>
-            <span>
-                sligan.alex@gmail.com
-            </span>
+            <a class="email" href="mailto:sligan.alex@gmail.com">
+                sligan.alex@gmail.com 👋
+            </a>
         </header>
-        <section>
-            <h1>
-                Hello! I'm Alex Sligan.<br>I specialise in backend development and data analytics.
-            </h1>
-            <div>
-                <span>#python</span>
-                <span>#sql</span>
-                <span>#flask</span>
+        <section class="welcome">
+            <div class="info">
+                <h1>
+                    <span>
+                    Hello! I'm Alex Sligan.
+                    </span>
+                    <span class="title-space">
+                        I specialise in backend development and data analytics.
+                    </span>
+                </h1>
+                <div class='tags'>
+                    <span>#python</span>
+                    <span>#sql</span>
+                    <span>#flask</span>
+                </div>
+                <button>Download CV</button>
             </div>
-            <button>Download CV</button>
-            <div>
-                <img>
+            <div class="photo">
+                <img class="avatar" src="/assets/img-sligan-main.png" srcset="/assets/img-sligan-main@2x.png" alt="sligan alex photo">
             </div>
         </section>
         <section>
@@ -47,8 +57,7 @@
             </div>
         </section>
         <footer>
-            <p>© Alex Sligan
-                Personal website, 2021
+            <p>© Alex Sligan Personal website, 2021
             </p>
             <div>
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
