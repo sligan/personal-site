@@ -72,6 +72,31 @@ button:active {
     border-color: var(--ligth);
 }
 
+h2 {
+    color: var(--ligth);
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    font-weight: normal;
+    margin-top: 72px;
+    cursor: pointer
+}
+
+a {
+    color: var(--ligth);
+}
+
+a:hover {
+    color: var(--jeans);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
 .container {
     max-width: 1008px;
     display: flex;
@@ -90,6 +115,12 @@ button:active {
     color: var(--asphalt);
     font-size: 22px;
     line-height: 28px;
+    margin-top: 40px;
+    margin-bottom: 78px;
+    display: flex;
+    justify-content: space-between;
+    width: 278px;
+    height: 28px;
 }
 
 .avatar {
@@ -99,8 +130,7 @@ button:active {
 }
 
 .photo {
-    /* object-fit: cover; */
-    height: 457px;
+    height: 475px;
     display: flex;
 }
 
@@ -118,6 +148,49 @@ button:active {
 .title-space {
     padding-top: 54px;
 }
+
+.cases-link {
+    margin-bottom: 72px;
+    color: var(--asphalt);
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.cases-link:hover {
+    color: var(--ketchup);
+}
+
+.cases-tag {
+    color: var(--asphalt);
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cases {
+    margin-top: 156px;
+    margin-bottom: 508px;
+}
+
+.copyright {
+    color: var(--asphalt);
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+
+/* .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+} */
 
 @media (min-width: 320px) and (max-width: 959px) {
     .logo {
